@@ -1,3 +1,5 @@
 flask
 pytest
 iso3166
+vega_datasets
+vega
