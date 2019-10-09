@@ -6,11 +6,3 @@ services:
       - "8888:8888"
     volumes:
       - ./:/code
-  superset:
-    image: abhioncbr/docker-superset:${SUPERSET_VERSION}
-    restart: always
-    ports:
-      - 8088:8088
-      - 5555:5555
-    volumes:
-      - ../config/:/home/superset/config/
